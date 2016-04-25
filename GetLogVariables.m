@@ -1,7 +1,7 @@
 %% Substitute data into the variables shown in the first comment line of the log data
 
 if ~exist('data_name')
-  data_name = input('log file name:','s');
+  data_name = input('log file name: ','s');
 end
 labels = GetLogLabels(data_name);
 data = load(data_name);
