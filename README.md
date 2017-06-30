@@ -1,5 +1,4 @@
-# mfiles
-Octave demonstrations
+Matlab/Octave utility for log data analysis
 =======
 
 ```
