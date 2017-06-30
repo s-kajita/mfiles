@@ -1,10 +1,13 @@
 # mfiles
 Octave demonstrations
+=======
 
-> clear
-> type testdata.log
+```
+>> clear
+>> type testdata.log
 
-> GetLogVariables
+>> GetLogVariables
 log file name: testdata.log
-> who
-> plot(time,x,time,y)
+>> who
+>> plot(time,x,time,y)
+```
