@@ -36,7 +36,7 @@ for n=1:length(labels)
   end
   col = next_col;
 end 
-clear n col next_col data_name
+clear n col next_col
 
 %tsize = length(time);
 %ToDeg = 180/pi;
