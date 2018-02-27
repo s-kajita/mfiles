@@ -39,4 +39,4 @@ end
 clear n col next_col
 
 %tsize = length(time);
-%ToDeg = 180/pi;
+ToDeg = 180/pi;
