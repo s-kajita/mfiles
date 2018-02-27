@@ -1,3 +1,7 @@
 % latest_log.m
-data_name = GetLatestLogPath('../log/')
+if is_octave
+    data_name = GetLatestLogPath('../log/');
+else
+    data_name = GetLatestLogPath('./');
+end
 GetLogVariables
